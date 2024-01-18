@@ -1,0 +1,72 @@
+:root{
+    --white: #FFFFFF;
+    --green: #1C9675;
+    --md: 40px;
+}
+.contenedor{
+    color: var(--withe);
+    display: grid;
+    justify-content: center;
+    margin: 10%;
+}
+
+.contenedor h1{
+    display: flex;
+    margin: auto;
+    color: var(--white);
+    font-size: var(--md);
+}
+
+/* INPUT */
+
+.input-task{
+    margin: 1%;
+    width: 500px;
+    height: 50px;
+    display: flex;
+    justify-self: center;
+    border-radius: 10px;
+}
+
+.input-task button{
+    color: var(--white);
+    border: 0;
+    width: 100px;
+    border-radius: 0 10px 10px 0;
+    text-align: center;
+    cursor: pointer;
+    background-color: var(--green);
+}
+
+.input-task input{
+    border: 0;
+    width: 400px;
+    border-radius: 10px 0 0 10px;
+    background-color: var(--white) ;
+    text-align: center;
+}
+
+/* CONTADOR */
+
+.contador-tasks{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    width: 500px;
+    height: 50px;
+}
+
+.contador-tasks p{
+    display: flex;
+    background-color: var(--white);
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: start;
+}
+
+p{
+    display: flex;
+    align-items: center;
+}
+
